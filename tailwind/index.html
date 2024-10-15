@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tailwind Css</title>
+</head>
+<body >
+   <div class="container  max-w-3xl pt-8 mx-auto ">
+        <h2 class="text-center text-5xl font-semibold mb-4 ">Todo</h2>
+        <form id="form" class="flex gap-4 mb-4 border-b-2 pb-4">
+            <input id="input" required class="bg-slate-100 min-w-0 flex-auto rounded-md border-0  px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" placeholder="">
+            <button  type="submit" class="flex-none rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 px-8" >Save</button>
+        </form>
+        <ul id="list" class="flex flex-col gap-2">
+            <!-- <li class="rounded-md py-1.5 px-4 border-[2px] text-xl">Studying</li> -->
+        </ul>
+   </div>
+</body>
+<script src="app.js"></script>
+</html>
